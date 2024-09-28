@@ -1,0 +1,58 @@
+# compiled output
+/dist
+/build
+/node_modules
+
+# files
+tmp/*
+uploads/*
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.c9/
+.project
+.classpath
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+.env.local
+.env.test.local
+.env.production.local
+.env.development.local
+
+# temp directory
+.tmp
+.temp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+sequelizeData.json
